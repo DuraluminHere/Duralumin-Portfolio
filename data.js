@@ -152,7 +152,7 @@ const DATA = {
     {
       title: "PitchLoop",
       url: "https://pitchloop.lovable.app/",
-      description: "A utility for looping and pitch-shifting YouTube videos in-browser, since an iOS update broke the extension I was using for YouTube pitch-shifting"
+      description: "A utility for looping and pitch-shifting YouTube videos in your browser, since an iOS update broke the extension I was using for YouTube pitch-shifting"
     },
     {
       title: "Aesthetica Standard",
