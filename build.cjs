@@ -57,7 +57,7 @@ function renderMediaItem(item) {
       '<object data="' + esc(item.src) + '" type="application/pdf" width="100%" height="220">' +
         '<p style="padding:16px;font-size:0.84rem">PDF preview not available in this browser.</p>' +
       "</object>" +
-      '<div class="pdf-fallback"><a href="' + esc(item.src) + '" target="_blank" rel="noopener">&#8599; Open PDF in new tab</a></div>';
+      '<div class="pdf-fallback"><a href="' + esc(item.src) + '" target="_blank" rel="noopener">Open PDF in new tab</a></div>';
   }
   var caption = item.caption
     ? '<div class="media-caption">' + esc(item.caption) + "</div>"
