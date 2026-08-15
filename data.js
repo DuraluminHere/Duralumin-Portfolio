@@ -114,18 +114,18 @@ const DATA = {
   skills: {
     // tools: icon can be an emoji, a text character, or a path to an image ("assets/python-icon.png")
     tools: [
-      { icon: "assets/lovable-icon.png", title: "Lovable" },
-      { icon: "assets/admin-icon.png", title: "Google Admin" },
-      { icon: "assets/make-icon.png", title: "Make.com" },
-      { icon: "assets/github-icon.png", title: "GitHub" },
-      { icon: "assets/forms-icon.png", title: "Google Forms" },
-      { icon: "assets/sheets-icon.png", title: "Google Sheets" },
-      { icon: "assets/squarespace-icon.png", title: "Squarespace" },
-      { icon: "assets/hf-icon.png", title: "Hugging Face" },
-      { icon: "assets/slack-icon.png", title: "Slack" },
-      { icon: "assets/figma-icon.png", title: "Figma Make" },
-      { icon: "assets/notion-icon.png", title: "Notion" },
-      { icon: "assets/csharp-icon.png", title: "C Sharp" }
+      { icon: "assets/icon-lovable.png", title: "Lovable" },
+      { icon: "assets/icon-admin.png", title: "Google Admin" },
+      { icon: "assets/icon-make.png", title: "Make.com" },
+      { icon: "assets/icon-github.png", title: "GitHub" },
+      { icon: "assets/icon-forms.png", title: "Google Forms" },
+      { icon: "assets/icon-sheets.png", title: "Google Sheets" },
+      { icon: "assets/icon-squarespace.png", title: "Squarespace" },
+      { icon: "assets/icon-hf.png", title: "Hugging Face" },
+      { icon: "assets/icon-slack.png", title: "Slack" },
+      { icon: "assets/icon-figma.png", title: "Figma Make" },
+      { icon: "assets/icon-notion.png", title: "Notion" },
+      { icon: "assets/icon-csharp.png", title: "C Sharp" }
     ],
     technical: [
       { icon: "🌐", title: "API endpoints and JSON" },
