@@ -93,11 +93,19 @@ const DATA = {
       ]
     },
     {
-      summary: "Rebuilt Slack environment, including onboarding automations and help ticket workflows",
+      summary: "Rebuilt an organization's Slack environment, including onboarding automations and help ticket workflows",
       bullets: [
         "Halved average remote onboarding time from ~2 weeks to ~1 week",
         "Users submit ~1 help ticket per issue instead of ~3",
         "Improvements built on clear, actionable instructions, data validation (reduces backtracking), and well-documented workflows"
+      ]
+    },
+    {
+      summary: "Identified redundancies and discrepancies in internal process documentation and built a new reproducable layout design to resolve it",
+      bullets: [
+        "Separate pages for tasker and reviewer portions of the same AI data training pipeline led to missed updates and disagreement on standards",
+        "Proposed and built a dual-column design with the tasker instructions on the left and the reviewer rubric on the right",
+        "Taskers and reviewers stayed on the same page, and this design scheme has now been adopted across the start-up's projects"
       ]
     },
     {
