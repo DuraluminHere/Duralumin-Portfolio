@@ -113,8 +113,8 @@ const DATA = {
       { icon: "🤗", title: "Hugging Face" },
       { icon: "💬", title: "Slack" },
       { icon: "🎨", title: "Figma Make" },
-      { icon: "🧠", title: "Notion" }
-      { icon: "💻", title: "C Sharp" },
+      { icon: "🧠", title: "Notion" },
+      { icon: "💻", title: "C Sharp" }
     ],
     technical: [
       { icon: "🌐", title: "API endpoints and JSON" },
