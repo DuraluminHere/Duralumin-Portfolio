@@ -8,12 +8,12 @@ const DATA = {
     bio: "My name’s Duralumin, and I make technology work for people. I have a passion for deeply understanding problems and inefficiencies and doing whatever is needed to make things better. That could be building a tool, designing or reworking a process, troubleshooting, or just facilitating interdepartmental communication. I'd love you help you with the things you need to do!",
     roles: [
       {
-        title: "Project Lead",
-        summary: "Helped lead concurrent remote AI training projects with up to 7000 workers each at a high-growth start-up. Collaborated with other leads to design fast-paced data collection and generation initiatives, execute ramps, rapidly align, monitor performance, and perform last-pass quality audits."
-      },
-      {
         title: "Process Engineer",
         summary: "Investigates potential avenues for process improvements, presents recommendations to management, and implements solutions as best aligned with organizational priorities and needs."
+      },
+      {
+        title: "Project Lead",
+        summary: "Helped lead concurrent remote AI training projects with up to 7000 workers each at a high-growth start-up. Collaborated with other leads to design fast-paced data collection and generation initiatives, execute ramps, rapidly align, monitor performance, and perform last-pass quality audits."
       },
       {
         title: "Help Desk Technician",
@@ -128,14 +128,15 @@ const DATA = {
       { icon: "assets/icon-csharp.png", title: "C Sharp" }
     ],
     technical: [
-      { icon: "🌐", title: "API endpoints and JSON" },
-      { icon: "📈", title: "Databases and SQL querying" },
-      { icon: "🤖", title: "AI-assisted development" },
-      { icon: "⚡", title: "Automation" },
-      { icon: "🧠", title: "Manual coding and solution design" },
-      { icon: "⚙️", title: "Machine learning" },
-      { icon: "📄", title: "Documentation" },
-      { icon: "🔍", title: "Data quality auditing" }
+      { icon: "assets/symbol-brackets.png", title: "API endpoints and JSON" },
+      { icon: "assets/symbol-databases.png", title: "Databases and SQL querying" },
+      { icon: "assets/symbol-computer.png", title: "AI-assisted development" },
+      { icon: "assets/symbol-automation.png", title: "Automation" },
+      { icon: "assets/symbol-design.png", title: "Solution design" },
+      { icon: "assets/symbol-coding.png", title: "Programming" },
+      { icon: "assets/symbol-ml.png", title: "Machine learning" },
+      { icon: "assets/symbol-notes.png", title: "Documentation" },
+      { icon: "assets/symbol-audit.png", title: "Data quality auditing" }
     ],
     soft: [
       { icon: "🤝", title: "Cross-departmental facilitation" },
