@@ -58,7 +58,7 @@ const DATA = {
     },
         {
       title: "CRM Scoping, Proposal and Migration",
-      problem: "The Junior League of Reading had to migrate to a new CRM since its previous one was being sunset. They weren't sure which to choose, or how to perform the migration.",
+      problem: "The Junior League of Reading (JLR) had to migrate to a new CRM since its previous one was being sunset. They weren't sure which to choose, or how to perform the migration.",
       solution: "I recommended and am carrying out a full migration to Zeffy. I've migrated a subset of data and provided written and live demoes, so once the board approves (likely some time in early September) I'll move the rest of the data and finalize the reporting presets, workflow templates, and written documentation to allow easy hand-off and ongoing maintenance.",
       tools: "After talking with JLR about their needs, wants, desired integrations and budget, I scoped vendors and narrowed them down to three top options. I then researched those in-depth to develop a proposal brief with a comparison matrix and gap analysis, recommending Zeffy as the most appropriate option while noting its limitations.",
       media: [
