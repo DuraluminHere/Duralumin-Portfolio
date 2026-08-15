@@ -876,6 +876,9 @@ ${content}
       document.querySelectorAll('.carousel-wrapper').forEach(function(el) {
         el.addEventListener('wheel', function(e) {
           if (e.deltaY === 0) return;
+          var atLeft = el.scrollLeft === 0;
+          var atRight = el.scrollLeft + el.clientWidth >= el.scrollWidth - 1;
+          if ((e.deltaY < 0 && atLeft) || (e.deltaY > 0 && atRight)) return;
           e.preventDefault();
           el.scrollLeft += e.deltaY;
         }, { passive: false });
