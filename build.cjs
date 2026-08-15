@@ -581,7 +581,7 @@ const output = `<!DOCTYPE html>
       display: flex;
       flex-direction: column;
       min-height: 260px;
-      background: var(--surface);
+      background: inherit;
       border-right: 1px solid var(--border);
     }
 
