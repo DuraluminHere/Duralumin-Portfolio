@@ -587,13 +587,15 @@ const output = `<!DOCTYPE html>
 
     .media-viewer {
       flex: 1;
+      background: var(--surface);
       overflow: hidden;
     }
 
     .media-item img {
       width: 100%;
       height: 240px;
-      object-fit: cover;
+      object-fit: contain;
+      background: var(--surface);
       display: block;
     }
 
