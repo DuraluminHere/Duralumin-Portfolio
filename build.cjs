@@ -146,7 +146,7 @@ function buildContent(data) {
   }).join("");
 
   html +=
-    '<h2 class="section-heading">Introduction</h2>' +
+    '<h2 class="section-heading">esc("Duralumin's Portfolio")</h2>' +
     '<div class="intro-grid">' +
       '<div class="intro-bio box-orange">' +
         '<h1>' + esc(data.intro.greeting) + "</h1>" +
@@ -251,8 +251,8 @@ function buildContent(data) {
 
   var creditHTML =
     '<footer class="site-footer">' +
-      '<p>Leaf icons by <a href="https://www.svgrepo.com/author/stocklution/" target="_blank" rel="noopener">Stocklution</a> on <a href="https://www.svgrepo.com" target="_blank" rel="noopener">SVG Repo</a> under the <a href="https://creativecommons.org/share-your-work/use-remix/cc-licenses/#by" target="_blank" rel="noopener">CC-BY license</a>. Fonts used are <a href="https://fonts.google.com/specimen/Mulish" target="_blank" rel="noopener">Mulish</a> and <a href="https://fonts.google.com/specimen/Domine/license" target="_blank" rel="noopener">Domine</a> from Google Fonts, licensed under the <a href="https://openfontlicense.org/" target="_blank" rel="noopener">SIL Open Font License</a>.</p>' +
-      '<p>Website designed and maintained by me, <a href="https://github.com" target="_blank" rel="noopener">hosted on GitHub</a>, and updated automatically with GitHub Actions.</p>' +
+      '<p>Background leaf icons by <a href="https://www.svgrepo.com/author/stocklution/" target="_blank" rel="noopener">Stocklution</a> on <a href="https://www.svgrepo.com" target="_blank" rel="noopener">SVG Repo</a> under the <a href="https://creativecommons.org/share-your-work/use-remix/cc-licenses/#by" target="_blank" rel="noopener">CC-BY license</a>. Other icons by <a href="https://icons8.com" target="_blank" rel="noopener">Icons8</a>. Fonts used are <a href="https://fonts.google.com/specimen/Mulish" target="_blank" rel="noopener">Mulish</a> and <a href="https://fonts.google.com/specimen/Domine/license" target="_blank" rel="noopener">Domine</a> from Google Fonts, licensed under the <a href="https://openfontlicense.org/" target="_blank" rel="noopener">SIL Open Font License</a>.</p>' +
+      '<p>Website designed and maintained by me, <a href="https://github.com/DuraluminHere/Duralumin-Portfolio" target="_blank" rel="noopener">hosted on GitHub</a>, and updated automatically with GitHub Actions.</p>' +
     '</footer>';
 
   html +=
@@ -265,7 +265,7 @@ function buildContent(data) {
 }
 
 // ── HTML template ────────────────────────────────────────────
-const title = DATA.name ? DATA.name + " — Portfolio" : "Portfolio";
+const title = DATA.name ? DATA.name + "'s Portfolio" : "Portfolio";
 const content = buildContent(DATA);
 
 // ── Background pattern ───────────────────────────────────────
