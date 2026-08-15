@@ -139,12 +139,13 @@ const DATA = {
       { icon: "assets/symbol-audit.png", title: "Data quality auditing" }
     ],
     soft: [
-      { icon: "🤝", title: "Cross-departmental facilitation" },
-      { icon: "💬", title: "Communication" },
-      { icon: "💼", title: "Professionalism" },
-      { icon: "🎙️", title: "Workshop facilitation" },
-      { icon: "👥", title: "Conflict resolution" },
-      { icon: "🧩", title: "Structured problem-solving" }
+      { icon: "assets/symbol-meeting.png", title: "Cross-departmental collaboration" },
+      { icon: "assets/symbol-talking.png", title: "Communication" },
+      { icon: "assets/symbol-briefcase.png", title: "Professionalism" },
+      { icon: "assets/symbol-training.png", title: "Training and workshops" },
+      { icon: "assets/symbol-conflict.png", title: "Conflict resolution" },
+      { icon: "assets/symbol-presentation.png", title: "Presentations and proposals" },
+      { icon: "assets/symbol-problem.png", title: "Structured problem-solving" }
     ]
   },
 
