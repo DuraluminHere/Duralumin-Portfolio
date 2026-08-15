@@ -51,7 +51,7 @@ const DATA = {
       title: "DoppleDesk Help Desk SaaS",
       problem: "Small organizations find popular help desk software expensive and bloated.",
       solution: "I built [DoppleDesk](https://doppledesk.com/), which supports 20 free agents with the trade-off that each organization must have 50 tickets or fewer in the system at once. This keeps cloud use low, allowing more free seats than popular software and flat, predictable fees for higher limits instead of traditional per-seat charges.",
-      tools: "Planned architecture myself, mocked UI in Figma Make, built using Lovable (extensive testing, debugging, and manual solution design), manually configured Squarespace domain with Zoho inbox, Paddle as merchant of record (higher fees than Stripe but easier tax compliance), ongoing SEO with Semrush and Google Search console.",
+      tools: "Planned the architecture myself, mocked UI in Figma Make, built using Lovable (extensive testing, debugging, and manual solution design), manually configured Squarespace domain with Zoho inbox, Paddle as merchant of record (higher fees than Stripe but easier tax compliance), ongoing SEO with Semrush and Google Search console.",
       media: [
         { type: "image", src: "assets/project-doppledesk-logo.png", caption: "The DoppleDesk logo I designed, overlaid over the ticket queue." }
       ]
