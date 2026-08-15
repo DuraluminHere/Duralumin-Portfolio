@@ -120,6 +120,7 @@ const DATA = {
       { icon: "assets/github-icon.png", title: "GitHub" },
       { icon: "assets/forms-icon.png", title: "Google Forms" },
       { icon: "assets/sheets-icon.png", title: "Google Sheets" },
+      { icon: "assets/squarespace-icon.png", title: "Squarespace" },
       { icon: "assets/hf-icon.png", title: "Hugging Face" },
       { icon: "assets/slack-icon.png", title: "Slack" },
       { icon: "assets/figma-icon.png", title: "Figma Make" },
