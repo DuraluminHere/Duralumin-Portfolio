@@ -37,7 +37,7 @@ const DATA = {
     },
     {
       logo: "assets/badge-ms-excel-associate.png",
-      name: "Excel Associate",
+      name: "Microsoft 365 Excel Associate",
       description: "Proves that I can create and edit complex Excel workbooks, using formulas and graphic elements to create professional reports."
     }
   ],
