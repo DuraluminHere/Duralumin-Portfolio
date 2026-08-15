@@ -582,6 +582,8 @@ const output = `<!DOCTYPE html>
       flex-direction: column;
       min-height: 260px;
       background: inherit;
+      border-right: 2px solid;
+      border-color: inherit;
     }
 
     .media-viewer {
