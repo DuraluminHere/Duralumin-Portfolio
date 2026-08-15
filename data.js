@@ -31,7 +31,7 @@ const DATA = {
     },
     {
       logo: "assets/badge-comptia-a-plus.png",
-      name: "CompTIA A+",
+      name: "CompTIA A+ Certification",
       description: "Shows that I can perform critical IT support tasks, as well as diagnose and resolve IT issues based on the CompTIA troubleshooting methodology."
     },
     {
