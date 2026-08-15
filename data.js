@@ -111,7 +111,7 @@ const DATA = {
       summary: "Audited a Google Workspace after the admin left suddenly, proposed changes directly to the CEO, and carried them out",
       bullets: [
         "Permissions given by department, eliminating delays and manual changes",
-        "Organizational units for app permissions and dynamic Google Groups for shared inboxes and Drives",
+        "Organizational units for specific app permissions and dynamic Google Groups for shared inboxes and Drives",
         "Recommended and wrote policy for name-based emails instead of role-based for professionalism and accountability"
       ]
     }
