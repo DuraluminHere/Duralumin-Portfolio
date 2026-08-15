@@ -172,7 +172,7 @@ const DATA = {
     {
       title: "Aesthetica Standard",
       url: "https://aesthetica-standard.lovable.app/",
-      description: "A simple, easy-to-use photo editor made with Lovable to create aesthetically pleasing posts and wallpapers without any log-ins or modern website bloat"
+      description: "A simple, easy-to-use photo editor made with Lovable to create aesthetically pleasing image posts and wallpapers without any log-ins or modern website bloat"
     }
   ]
 };
