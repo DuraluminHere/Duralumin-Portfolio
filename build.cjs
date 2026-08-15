@@ -146,7 +146,7 @@ function buildContent(data) {
   }).join("");
 
   html +=
-    '<h2 class="section-heading">Duralumin's Portfolio</h2>' +
+    `<h2 class="section-heading">Duralumin's Portfolio</h2>` +
     '<div class="intro-grid">' +
       '<div class="intro-bio box-orange">' +
         '<h1>' + esc(data.intro.greeting) + "</h1>" +
