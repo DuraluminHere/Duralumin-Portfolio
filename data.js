@@ -85,9 +85,9 @@ const DATA = {
       tools: "I drew a design PDF inspired by the old portfolio and worked with Claude through Figma Make to make it a website. After iteration, I uploaded the site files to a GitHub repository, bought this domain through Squarespace domains, changed the DNS records and created a GitHub Action to recompile when I change the underlying JSON data. I don't need AI for maintenance; I understand the JSON, HTML, CSS and file structure and have been editing them all myself on GitHub. All text is my own.",
       media: [
         { type: "image", src: "assets/project-portfolio-old.png", caption: "The old portfolio on Notion looked nice, but it was difficult to scale without it growing slow or cluttered." },
-        { type: "pdf", src: "assets/project-portfolio-draft.pdf", caption: "My original vision for the website, sketched out in Freeform on iPad." },
-        { type: "image", src: "assets/project-portfolio-early.png", caption: "One of the earlier iterations of the site (with Figma's default dummy data). It had good bones, but looked pretty generic." },
-        { type: "image", src: "assets/project-portfolio-new.png", caption: "The end result of that same section, with my design edits, hand-chosen icons, and real data. This has much more personality, don't you think?" }
+        { type: "pdf", src: "assets/project-portfolio-draft.pdf", caption: "My original vision for this new version of my portfolio website, sketched out in Freeform on iPad." },
+        { type: "image", src: "assets/project-portfolio-early.png", caption: "One of the earlier iterations of the new portfolio (with Figma's generated dummy data). It had good bones, but looked pretty generic." },
+        { type: "image", src: "assets/project-portfolio-new.png", caption: "The end result of that same section, after going through my design edits, hand-chosen icons, and real data. This has much more personality, don't you think?" }
       ]
     }
   ],
