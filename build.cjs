@@ -872,6 +872,15 @@ ${content}
         });
       });
 
+      // Carousel scrolling
+      document.querySelectorAll('.carousel-wrapper').forEach(function(el) {
+        el.addEventListener('wheel', function(e) {
+          if (e.deltaY === 0) return;
+          e.preventDefault();
+          el.scrollLeft += e.deltaY;
+        }, { passive: false });
+      });
+
       // Media carousel navigation
       var mediaState = {};
       document.querySelectorAll(".media-nav-btn").forEach(function (btn) {
