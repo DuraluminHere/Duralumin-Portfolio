@@ -587,7 +587,7 @@ const output = `<!DOCTYPE html>
 
     .media-viewer {
       flex: 1;
-      background: var(--surface);
+      background: inherit;
       overflow: hidden;
     }
 
@@ -595,7 +595,7 @@ const output = `<!DOCTYPE html>
       width: 100%;
       height: 240px;
       object-fit: contain;
-      background: var(--surface);
+      background: inherit;
       display: block;
     }
 
@@ -603,12 +603,14 @@ const output = `<!DOCTYPE html>
       width: 100%;
       height: 240px;
       border: none;
+      background: inherit;
       display: block;
     }
 
     .media-item object {
       width: 100%;
       height: 220px;
+      background: inherit;
       display: block;
     }
 
@@ -616,7 +618,7 @@ const output = `<!DOCTYPE html>
       font-size: 0.76rem;
       text-align: center;
       padding: 5px 10px;
-      background: var(--surface);
+      background: inherit;
       border-top: 1px solid var(--border);
     }
 
