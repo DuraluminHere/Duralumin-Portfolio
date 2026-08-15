@@ -364,6 +364,7 @@ const output = `<!DOCTYPE html>
       background-color: var(--bg);
       background-image: url("data:image/svg+xml;base64,${fleurLight}");
       background-size: 240px 240px;
+      background-attachment: fixed;
       color: var(--fg);
       line-height: 1.6;
     }
