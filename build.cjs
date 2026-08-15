@@ -582,7 +582,6 @@ const output = `<!DOCTYPE html>
       flex-direction: column;
       min-height: 260px;
       background: inherit;
-      border-right: 1px solid var(--border);
     }
 
     .media-viewer {
@@ -619,19 +618,19 @@ const output = `<!DOCTYPE html>
       text-align: center;
       padding: 5px 10px;
       background: inherit;
-      border-top: 1px solid var(--border);
     }
 
     .pdf-fallback {
       font-size: 0.78rem;
       text-align: center;
       padding: 4px 8px;
-      background: var(--surface);
+      background: inherit;
     }
 
     .pdf-fallback a {
       color: var(--orange);
       text-decoration: none;
+      background: inherit;
     }
 
     .pdf-fallback a:hover { text-decoration: underline; }
@@ -641,8 +640,8 @@ const output = `<!DOCTYPE html>
       align-items: center;
       justify-content: space-between;
       padding: 5px 8px;
-      background: var(--surface);
       border-top: 1px solid var(--border);
+      background: inherit;
       flex-shrink: 0;
     }
 
