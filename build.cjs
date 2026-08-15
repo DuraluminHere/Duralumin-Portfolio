@@ -21,6 +21,10 @@ function esc(str) {
     .replace(/"/g, "&quot;");
 }
 
+function md(str) {
+  return esc(str).replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+}
+
 function isImgPath(icon) {
   return icon && (
     icon.startsWith("http") ||
