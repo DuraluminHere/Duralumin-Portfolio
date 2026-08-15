@@ -66,7 +66,7 @@ const DATA = {
         { type: "image", src: "assets/project-xkcdatabase-dash.png", caption: "The dashboard for XKCDatabase NEO, which shows comic statistics over time." },
         { type: "image", src: "assets/project-xkcdatabase-comics.png", caption: "An example of how comics look stored in XKCDatabase NEO." },
         { type: "image", src: "assets/project-xkcdatabase-make.png", caption: "The Make.com automation used to fetch xkcd comic data with error handling." },
-        { type: "image", src: "assets/project-xkcdatabase-model.png", caption: "The fine-tuned YOLOv5s model in action." }
+        { type: "image", src: "assets/project-xkcdatabase-vision.png", caption: "The fine-tuned YOLOv5s model in action." }
       ]
     }
   ],
