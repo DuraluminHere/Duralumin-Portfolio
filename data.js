@@ -100,7 +100,7 @@ const DATA = {
       ]
     },
     {
-      summary: "Identified redundancies and discrepancies in internal process documentation and built a new reproducable layout design to resolve it",
+      summary: "Identified redundancies and discrepancies in internal process documentation and created a new layout design to prevent future confusion",
       bullets: [
         "Separate pages for tasker and reviewer portions of the same AI data training pipeline led to missed updates and disagreement on standards",
         "Proposed and built a dual-column design with the tasker instructions on the left and the reviewer rubric on the right",
