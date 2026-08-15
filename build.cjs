@@ -688,6 +688,10 @@ const output = `<!DOCTYPE html>
       line-height: 1.65;
     }
 
+    .project-text a, .process-summary a {
+      color: var(--orange);
+    }
+
     /* ── PROCESS IMPROVEMENT CARDS ──────────────────────── */
     .process-card {
       flex: 0 0 300px;
