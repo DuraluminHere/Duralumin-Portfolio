@@ -593,7 +593,7 @@ const output = `<!DOCTYPE html>
 
     .media-item img {
       width: 100%;
-      height: 100%;
+      height: 240px;
       object-fit: contain;
       background: var(--surface);
       display: block;
