@@ -81,7 +81,7 @@ const DATA = {
     {
       title: "Static GitHub-Hosted Portfolio Website",
       problem: "I needed a new portfolio site as my previous Notion-hosted one wasn't customizable or extensible enough. Notion was a bit overengineered and slow for a static portfolio, and LLMs couldn't read it well.",
-      solution: "I built [this portfolio page](https://duralumin.me/?recursion=true) from my strictly defined design direction: hand-chosen hex code theme colors, fonts and icons along with the sharp shapes, subtle background idea, JSON-based object schema for extensibility, and a fast-loading LLM friendly page structure.,
+      solution: "I built [this portfolio page](https://duralumin.me/?recursion=true) from my strictly defined design direction: hand-chosen hex code theme colors, fonts and icons along with the sharp shapes, subtle background idea, JSON-based object schema for extensibility, and a fast-loading LLM friendly page structure.",
       tools: "I drew a design PDF inspired by the old portfolio and worked with Claude through Figma Make to make it a website. After iteration, I uploaded the site files to a GitHub repository, bought this domain through Squarespace domains, changed the DNS records and created a GitHub Action to recompile when I change the underlying JSON data. I don't need AI for maintenance; I understand the JSON, HTML, CSS and file structure and have been editing them all myself on GitHub. All text is my own.",
       media: [
         { type: "image", src: "assets/project-portfolio-old.png", caption: "The old portfolio on Notion looked nice, but it was difficult to scale without it growing slow or cluttered." },
