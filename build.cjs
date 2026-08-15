@@ -99,21 +99,21 @@ function renderProject(proj, idx) {
     fieldsHTML +=
       '<div class="project-field">' +
         '<div class="project-field-label">Problem</div>' +
-        '<div class="project-field-value">' + esc(proj.problem) + "</div>" +
+        '<div class="project-field-value">' + md(proj.problem) + "</div>" +
       "</div>";
   }
   if (proj.solution) {
     fieldsHTML +=
       '<div class="project-field">' +
         '<div class="project-field-label">Solution</div>' +
-        '<div class="project-field-value">' + esc(proj.solution) + "</div>" +
+        '<div class="project-field-value">' + md(proj.solution) + "</div>" +
       "</div>";
   }
   if (proj.tools) {
     fieldsHTML +=
       '<div class="project-field">' +
         '<div class="project-field-label">Tools &amp; Implementation</div>' +
-        '<div class="project-field-value">' + esc(proj.tools) + "</div>" +
+        '<div class="project-field-value">' + md(proj.tools) + "</div>" +
       "</div>";
   }
 
