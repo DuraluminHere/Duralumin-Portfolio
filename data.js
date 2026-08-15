@@ -57,8 +57,18 @@ const DATA = {
         { type: "image", src: "assets/project-doppledesk-logo.png", caption: "The DoppleDesk logo I designed, overlaid over the ticket queue." }
       ]
     },
+        {
+      title: "CRM Scoping and Migration",
+      problem: "The Junior League of Reading had to migrate to a new CRM since its previous one was being sunset. They weren't sure which to choose, or how to perform the migration.",
+      solution: "I recommended and am carrying out a full migration to Zeffy. I've migrated a subset of the data and provided written and live demoes, so once the board approves (likely some time in early September) I'll move the rest of the data and finalize the reporting presets, workflow templates, and written documentation to allow easy hand-off and ongoing maintenance.",
+      tools: "After talking with JLR about their needs, wants, desired integrations and budget, I scoped vendors and narrowed them down to three top options. I then researched those in-depth to develop a proposal brief with a comparison matrix and gap analysis, recommending Zeffy as the most appropriate option while noting its limitations.",
+      media: [
+        { type: "pdf", src: "assets/project-crm-report.pdf", caption: "The full two-page proposal brief I wrote (manual, not LLM-written) and presented to the JLR IT head." },
+        { type: "html", src: "assets/project-crm-scorecard.html", caption: "The scorecard I created while researching and evaluating our three top CRM options. These notes formed the basis for the proposal." }
+      ]
+    },
     {
-      title: "Automated Notion Database Dashboard",
+      title: "Automated AI-Powered Notion Database Dashboard",
       problem: "The [xkcd webcomic](https://xkcd.com) has over 3000 entries but no property-based search.",
       solution: "I created [XKCDatabase NEO](https://duralumin.notion.site/xkcdatabaseneo) on Notion. It provides data for all 3000+ numbered xkcd comics, dynamic dashboards for long- and short-term trends, and multi-property search.",
       tools: "[Make.com automation](https://us2.make.com/public/shared-scenario/psCyBMbRn7e/xkcdatabase-maintainer), API/JSON calls to Explain XKCD wiki, Notion database/automations, regular expressions, YOLOv5s computer vision model (fine-tuned myself with >550 hand-annotated comics over 300 epochs) [deployed on Hugging Face](https://huggingface.co/spaces/DuraluminHere/xkcd-panel-finder) as a demo and an API to detect panel edges",
