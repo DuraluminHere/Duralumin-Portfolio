@@ -1,5 +1,4 @@
 const DATA = {
-  // Used in the browser tab title
   name: "Duralumin",
 
   // ── INTRODUCTION ──────────────────────────────────────────
