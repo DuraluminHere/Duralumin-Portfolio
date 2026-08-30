@@ -4,7 +4,7 @@ const DATA = {
   // ── INTRODUCTION ──────────────────────────────────────────
   intro: {
     greeting: "Hey there!",
-    bio: "My name’s Duralumin, and I make technology work for people. I have a passion for deeply understanding problems and inefficiencies and doing whatever is needed to make things better. That could be building a tool, designing or reworking a process, troubleshooting, or just facilitating interdepartmental communication. I'd love you help you with the things you need to do!",
+    bio: "My name’s Duralumin, and I make technology work for people. I have a passion for deeply understanding problems and inefficiencies and doing whatever is needed to make things better. That could be building a tool, designing or reworking a process, troubleshooting, or just facilitating interdepartmental communication. I'd love to help you with the things you need to do!",
     roles: [
       {
         title: "Process Engineer",
