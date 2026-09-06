@@ -295,7 +295,7 @@ function makePatternSVG(branchFill, leafFill) {
 
 // Orange at slightly lower opacity than green — it's perceptually stronger
 const fleurLight = Buffer.from(makePatternSVG("rgba(0,66,9,0.10)", "rgba(242,88,0,0.08)")).toString("base64");
-const fleurDark  = Buffer.from(makePatternSVG("rgba(26,107,40,0.18)", "rgba(242,88,0,0.16)")).toString("base64");
+const fleurDark  = Buffer.from(makePatternSVG("rgba(26,107,40,0.25)", "rgba(242,88,0,0.16)")).toString("base64");
 
 const output = `<!DOCTYPE html>
 <html lang="en">
