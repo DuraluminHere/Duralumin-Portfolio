@@ -129,6 +129,7 @@ const DATA = {
       bullets: [
         "Permissions given by department, eliminating delays and manual changes",
         "Organizational units for specific app permissions and dynamic Google Groups for shared inboxes and Drives",
+        "Handled change communications during the transition",
         "Recommended and wrote policy for name-based emails instead of role-based for professionalism and accountability"
       ]
     }
