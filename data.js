@@ -12,11 +12,11 @@ const DATA = {
       },
       {
         title: "Project Lead",
-        summary: "Helped lead concurrent remote AI training projects with up to 7000 workers each at a high-growth start-up. Collaborated with other leads to design fast-paced data collection and generation initiatives, execute ramps, rapidly align, monitor performance, and perform last-pass quality audits."
+        summary: "Co-led 7000+ workers over 2 successful AI data collection projects to external clients in a remote late-stage startup environment. Led daily pod syncs, provided sync/async training, made final QA audits and calls and wrote performance reports contributing to staffing decisions."
       },
       {
         title: "Help Desk Technician",
-        summary: "Provides Tier 1 and Tier 2 technical support for campus community of over 8,000 students, staff, and faculty in person, over email and phone, by Zoom, and with remote support screen sharing software in a fast-paced environment."
+        summary: "Provides Tier 1 and Tier 2 technical support for campus community of over 8,000 students, staff, and faculty in person, over email and phone, by Zoom, and with remote support screen sharing software in a fast-paced campus environment, owning the full ticket lifecycle in TeamDynamix ticketing system to meet SLA targets."
       }
     ]
   },
@@ -33,6 +33,11 @@ const DATA = {
       logo: "assets/badge-comptia-a-plus.png",
       name: "CompTIA A+ Certification",
       description: "Shows that I can perform critical IT support tasks, as well as diagnose and resolve IT issues based on the CompTIA troubleshooting methodology."
+    },
+    {
+      logo: "assets/badge-salesforce-foundations.png",
+      name: "Salesforce Certified Platform Foundations",
+      description: "Confirms foundational Salesforce Platform knowledge, including common CRM use cases, reporting features, data security and sharing, and cross-departmental collaboration."
     },
     {
       logo: "assets/badge-ms-excel-associate.png",
